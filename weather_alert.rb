@@ -1,32 +1,37 @@
 require 'bundler/setup'
 require 'httparty'
 require 'pry'
+require_relative 'weather'
 
-class WeatherAlert
-  BASE_URI = "http://api.wunderground.com/api/#{ENV['WEATHER_UNDERGROUND_API_KEY']}/"
-  QUERY_TYPE = "alert/q/"
-  def get(state, city)
-    city_name = city.split.join("_")
-    response = HTTParty.get("#{BASE_URI}#{QUERY_TYPE}#{state}#{city_name}.json")
-    extract_and_display_data(response)
-    #binding pry
+
+class WeatherAlert < Weather
+
+  def feature
+    "alerts"
   end
 
-  def get_by_zip(zipcode)
-    response = HTTParty.get("#{BASE_URI}#{QUERY_TYPE}#{zipcode}.json")
-    extract_and_display_data(response)
-    response
-    #binding pry
+  def descriptions
+    descriptions = []
+    report["alerts"].each { |a| descriptions << a["description"]}
+    descriptions
   end
 
-  def extract_and_display_data(response)
-    response["alerts"].each do |t|
-      puts t["description"]
-      print "from: "
-      puts t["date"]
-      print "to: "
-      puts t["expires"]
-      puts t["message"]
-    end
+  def from_dates
+    from_dates
+    report["alerts"].each { |a| from_dates << a["date"]}
+    from_dates
   end
+
+  def expire_dates
+    expire_dates
+    report["alerts"].each { |a| expire_dates << ["expires"]}
+    expire_dates
+  end
+
+  def messages
+    messages
+    report["alerts"].each { |a| messages << ["message"]}
+    messages
+  end
+
 end

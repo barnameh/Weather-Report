@@ -1,0 +1,245 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "geolookup": 1
+    }
+  },
+  "location": {
+    "type": "CITY",
+    "country": "US",
+    "country_iso3166": "US",
+    "country_name": "USA",
+    "state": "DC",
+    "city": "Washington",
+    "tz_short": "EDT",
+    "tz_long": "America/New_York",
+    "lat": "38.90000153",
+    "lon": "-77.05000305",
+    "zip": "20037",
+    "magic": "1",
+    "wmo": "99999",
+    "l": "/q/zmw:20037.1.99999",
+    "requesturl": "US/DC/Washington.html",
+    "wuiurl": "https://www.wunderground.com/US/DC/Washington.html",
+    "nearby_weather_stations": {
+      "airport": {
+        "station": [
+          {
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "icao": "KDCA",
+            "lat": "38.84719849",
+            "lon": "-77.03455353"
+          },
+          {
+            "city": "Nws Hdqtrs",
+            "state": "MD",
+            "country": "US",
+            "icao": "KWBC",
+            "lat": "38.84999847",
+            "lon": "-76.93000031"
+          },
+          {
+            "city": "College Park",
+            "state": "MD",
+            "country": "US",
+            "icao": "KCGS",
+            "lat": "38.98058319",
+            "lon": "-76.92230225"
+          },
+          {
+            "city": "Andrews AFB",
+            "state": "MD",
+            "country": "US",
+            "icao": "KADW",
+            "lat": "38.81080627",
+            "lon": "-76.86702728"
+          }
+        ]
+      },
+      "pws": {
+        "station": [
+          {
+            "neighborhood": "Egerweg",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI86",
+            "lat": 38.904507,
+            "lon": -77.049805,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Georgetown",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI159",
+            "lat": 38.9081,
+            "lon": -77.056053,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Georgetown",
+            "city": "Arlington",
+            "state": "VA",
+            "country": "US",
+            "id": "KVAARLIN129",
+            "lat": 38.909492,
+            "lon": -77.05928,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Northwest Washington",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI78",
+            "lat": 38.911919,
+            "lon": -77.042747,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "The Washington Post",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI185",
+            "lat": 38.903015,
+            "lon": -77.031113,
+            "distance_km": 1,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Penn Quarter DC",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI125",
+            "lat": 38.896744,
+            "lon": -77.024834,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Adams Morgan",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI123",
+            "lat": 38.921074,
+            "lon": -77.038643,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Adams Morgan",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI123",
+            "lat": 38.921074,
+            "lon": -77.038643,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Washington",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI187",
+            "lat": 38.926579,
+            "lon": -77.05101,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Columbia Heights",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI42",
+            "lat": 38.924824,
+            "lon": -77.034538,
+            "distance_km": 3,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Washington",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI186",
+            "lat": 38.928532,
+            "lon": -77.063515,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Palisades",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI170",
+            "lat": 38.908035,
+            "lon": -77.087906,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Woodley Park",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI101",
+            "lat": 38.929588,
+            "lon": -77.060707,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Mount Pleasant",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI154",
+            "lat": 38.931225,
+            "lon": -77.041679,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "heliosmonroe",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI129",
+            "lat": 38.933125,
+            "lon": -77.037323,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Eckington Pl, NE",
+            "city": "Washington",
+            "state": "DC",
+            "country": "US",
+            "id": "KDCWASHI18",
+            "lat": 38.909843,
+            "lon": -77.006042,
+            "distance_km": 3,
+            "distance_mi": 2
+          }
+        ]
+      }
+    }
+  }
+}
